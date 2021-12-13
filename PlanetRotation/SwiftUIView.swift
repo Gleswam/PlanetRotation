@@ -54,19 +54,8 @@ struct SwiftUIView: View {
                 
                 
             }
-//            List {
-//                ForEach(planet3d.models[0...4]) { Model in
-//                    Button {
-//                        if()
-//                            } label: {
-//
-//                                Text("\(Model.name)")
-//
-//                            }
-//
-//                }
-//                }
             }
+        
                 
             
             

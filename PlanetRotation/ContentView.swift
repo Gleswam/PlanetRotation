@@ -29,10 +29,11 @@ struct ContentView: View {
         
         ZStack {
             
-        
-        VStack{
             SceneView(
                 scene: {
+                        playSound(sound: "Exoplanet", type: "mp3")
+                   
+                    
                     
                     let scene = SCNScene(named: viewModel.nameModel)!
                     
@@ -49,28 +50,62 @@ struct ContentView: View {
                     
                     return scene
                 }(),
-                options: [.autoenablesDefaultLighting,.allowsCameraControl]
+                options: [.autoenablesDefaultLighting,.allowsCameraControl,]
+            ).ignoresSafeArea(.all)
+            
+                     NavigationLink(destination: SwiftUIView()) {
+                         Image(systemName: "gearshape.2.fill")
+                          .resizable()
+                          .scaledToFit()
+                          .frame(width: 70, height: 70)
+                          .position(x: 370, y: 690)
+                          .foregroundColor(Color.white)
+                                                                }
+                     .buttonStyle(PlainButtonStyle())
+            
+            
+            Button{
                 
-            )
-        }
+            } label: {
+                Image(systemName: "playpause.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 70, height: 70)
+                    .position(x: 50 , y: 690)
+                    .foregroundColor(Color.white)
+                    .onTapGesture(perform: {
+                        audioPlayer?.pause()
+                    })
+                    .onLongPressGesture(perform: {
+                        audioPlayer?.play()
+                    })
+                }.buttonStyle(PlainButtonStyle())
+            
+            
+            }
+                
+//                NavigationLink(destination: SwiftUIView()) {
+//
+//                     Image(systemName: "gearshape.2.fill")
+//                         .resizable()
+//                         .scaledToFit()
+//                         .frame(width: 70, height: 70)
+//                         .position(x: 370, y: 690)
+//                         .foregroundColor(Color.white)
+//
+//                 }
+            
             
            
             
-                NavigationLink(destination: SwiftUIView()) {
-
-                     Image(systemName: "gearshape.2.fill")
-                         .resizable()
-                         .scaledToFit()
-                         .frame(width: 70, height: 70)
-                         .position(x: 370, y: 690)
-                         .foregroundColor(Color.white)
-                 }
+            
+            
             }
         
              
             
             
-    }
+    
         
             
         }
