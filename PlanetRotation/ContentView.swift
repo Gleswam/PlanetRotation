@@ -8,48 +8,73 @@
 import SwiftUI
 import SceneKit
 
+
+//class ModelChange: ObservableObject {
+//   
+//    @Published var nameModel = "Earth.usdz"
+//    
+//}
+
 struct ContentView: View {
     
-    @StateObject var modelsNum1 = ModelsNumber(modelNum: 0)
+    @EnvironmentObject var viewModel: ViewModel
+
+    @StateObject var planet3d = Planet3d()
+    
+//    @State var nameModel = "Earth.usdz"
     
     var body: some View {
-        TabView{
+        
+        NavigationView {
+        
+        ZStack {
             
-            NavigationView {
-                PlanetThreeView().environmentObject(modelsNum1)
-                    .navigationTitle(Text("Planets"))
-                    .navigationBarTitleDisplayMode(.inline)
-            }
-            .tabItem() {
-                Image(systemName: "rectangle.grid.1x2.fill")
-                    .foregroundColor(.green)
-                Text("Ubrat'")
-                    .foregroundColor(.green)
+        
+        VStack{
+            SceneView(
+                scene: {
+                    
+                    let scene = SCNScene(named: viewModel.nameModel)!
+                    
+                    let action = SCNAction.rotate(by: 360 * CGFloat(Double.pi / 180), around: SCNVector3(x:0, y:1, z:0), duration: 10)
+                    let repeatAction = SCNAction.repeatForever(action)
+                    
+                    
+                    let stars = SCNParticleSystem(named: "StarsParticles.scnp", inDirectory: nil)!
+                    scene.rootNode.addParticleSystem(stars)
+                    
+                    scene.background.contents = UIColor.black
+                    
+                    scene.rootNode.runAction(repeatAction)
+                    
+                    return scene
+                }(),
+                options: [.autoenablesDefaultLighting,.allowsCameraControl]
                 
-            }
-            
-            NavigationView {
-                SwiftUIView()
-                    .navigationTitle(Text("Kakashka"))
-                    .navigationBarTitleDisplayMode(.inline)
-            }
-            .tabItem {
-                Image(systemName: "house.fill")
-                    .foregroundColor(.green)
-                Text("PlayPage")
-                    .foregroundColor(.green)
-                
-                
-            }
-         
-            
+            )
         }
-        .onAppear() {
-            UITabBar.appearance().backgroundColor = UIColor.black
             
-        }
-        .accentColor(.green)
+           
+            
+                NavigationLink(destination: SwiftUIView()) {
+
+                     Image(systemName: "gearshape.2.fill")
+                         .resizable()
+                         .scaledToFit()
+                         .frame(width: 70, height: 70)
+                         .position(x: 370, y: 690)
+                         .foregroundColor(Color.white)
+                 }
+            }
+        
+             
+            
+            
     }
-}
+        
+            
+        }
+    }
+
 
 

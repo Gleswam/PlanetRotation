@@ -28,4 +28,6 @@ class ModelsNumber: ObservableObject {
         self.modelNum = modelNum
     }
     @Published var modelNum = 0
+    
 }
+

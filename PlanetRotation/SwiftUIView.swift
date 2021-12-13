@@ -9,20 +9,63 @@ import SwiftUI
 
 struct SwiftUIView: View {
     
+    
+
+//   var model: Model
+    @EnvironmentObject var viewModel: ViewModel
     @StateObject var planet3d = Planet3d()
     
     var body: some View {
         
         NavigationView {
-            List {
-                ForEach(planet3d.models[0...4]) { Model in
-                    Button {
-                                
-                            } label: {
-                                Text("Planet")
-                            }
-                    
+            List{
+            
+            
+                Button {
+                    viewModel.nameModel = "Earth.usdz"
+                } label: {
+                    Text("Earth")
                 }
+                Button {
+                    viewModel.nameModel = "sea.usdz"
+                } label: {
+                    Text("Sea Planet")
+                }
+                Button {
+                    viewModel.nameModel = "Titan.usdz"
+                } label: {
+                    Text("Titan")
+                }
+                Button {
+                    viewModel.nameModel = "VenusNASA.usdz"
+                } label: {
+                    Text("Venus")
+                }
+                Button {
+                    viewModel.nameModel = "Plasma.usdz"
+                } label: {
+                    Text("Plasma")
+                }
+                Button {
+                    viewModel.nameModel = "Diamond.usdz"
+                } label: {
+                    Text("Diamond")
+                }
+                
+                
+            }
+//            List {
+//                ForEach(planet3d.models[0...4]) { Model in
+//                    Button {
+//                        if()
+//                            } label: {
+//
+//                                Text("\(Model.name)")
+//
+//                            }
+//
+//                }
+//                }
             }
                 
             
@@ -30,10 +73,3 @@ struct SwiftUIView: View {
         }
 
     }
-}
-
-struct SwiftUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        SwiftUIView()
-    }
-}
