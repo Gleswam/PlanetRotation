@@ -8,15 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1C20A0902763AE740025BB54 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20A08F2763AE740025BB54 /* SwiftUIView.swift */; };
+		1C3563F42768DEF600131DCC /* Earth_new.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563F32768DEF600131DCC /* Earth_new.usdz */; };
+		1C3563F62768E04E00131DCC /* Alien_Planet.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563F52768E04E00131DCC /* Alien_Planet.usdz */; };
+		1C3563FA2768E20200131DCC /* time_Eater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563F92768E20200131DCC /* time_Eater.mp3 */; };
+		1C3563FC2768E29400131DCC /* interstellar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563FB2768E29400131DCC /* interstellar.mp3 */; };
+		1C3564022769455500131DCC /* Momentum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563FD2769455400131DCC /* Momentum.mp3 */; };
+		1C3564032769455500131DCC /* Colossal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563FE2769455400131DCC /* Colossal.mp3 */; };
+		1C3564042769455500131DCC /* Silent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3563FF2769455500131DCC /* Silent.mp3 */; };
+		1C3564052769455500131DCC /* Alliance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3564002769455500131DCC /* Alliance.mp3 */; };
+		1C3564062769455500131DCC /* clemens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1C3564012769455500131DCC /* clemens.mp3 */; };
+		1C3564082769462B00131DCC /* moon.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C3564072769462B00131DCC /* moon.usdz */; };
 		1C3761F22765458F001A77B5 /* StarsParticles.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 1C3761F12765458F001A77B5 /* StarsParticles.scnp */; };
 		1C50DBF72763A1A500FFE5E6 /* Earth.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBEE2763A1A500FFE5E6 /* Earth.usdz */; };
-		1C50DBF92763A1A500FFE5E6 /* Titan.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF02763A1A500FFE5E6 /* Titan.usdz */; };
 		1C50DBFA2763A1A500FFE5E6 /* Neptune.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF12763A1A500FFE5E6 /* Neptune.usdz */; };
-		1C50DBFB2763A1A500FFE5E6 /* chroma.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF22763A1A500FFE5E6 /* chroma.usdz */; };
 		1C50DBFC2763A1A500FFE5E6 /* sea.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF32763A1A500FFE5E6 /* sea.usdz */; };
 		1C50DBFD2763A1A500FFE5E6 /* Plasma.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF42763A1A500FFE5E6 /* Plasma.usdz */; };
 		1C50DBFE2763A1A500FFE5E6 /* VenusNASA.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF52763A1A500FFE5E6 /* VenusNASA.usdz */; };
-		1C50DBFF2763A1A500FFE5E6 /* Diamond.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 1C50DBF62763A1A500FFE5E6 /* Diamond.usdz */; };
 		1C6EF0C9276243C700B6027C /* Planet3d.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF0C7276243C700B6027C /* Planet3d.swift */; };
 		1C6EF0CA276243C700B6027C /* Planet3dstru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF0C8276243C700B6027C /* Planet3dstru.swift */; };
 		1C79D0BE275FA185002F893A /* PlanetRotationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C79D0BD275FA185002F893A /* PlanetRotationApp.swift */; };
@@ -30,15 +37,22 @@
 
 /* Begin PBXFileReference section */
 		1C20A08F2763AE740025BB54 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		1C3563F32768DEF600131DCC /* Earth_new.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth_new.usdz; sourceTree = "<group>"; };
+		1C3563F52768E04E00131DCC /* Alien_Planet.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Alien_Planet.usdz; sourceTree = "<group>"; };
+		1C3563F92768E20200131DCC /* time_Eater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = time_Eater.mp3; sourceTree = "<group>"; };
+		1C3563FB2768E29400131DCC /* interstellar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = interstellar.mp3; sourceTree = "<group>"; };
+		1C3563FD2769455400131DCC /* Momentum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Momentum.mp3; sourceTree = "<group>"; };
+		1C3563FE2769455400131DCC /* Colossal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Colossal.mp3; sourceTree = "<group>"; };
+		1C3563FF2769455500131DCC /* Silent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Silent.mp3; sourceTree = "<group>"; };
+		1C3564002769455500131DCC /* Alliance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Alliance.mp3; sourceTree = "<group>"; };
+		1C3564012769455500131DCC /* clemens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clemens.mp3; sourceTree = "<group>"; };
+		1C3564072769462B00131DCC /* moon.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = moon.usdz; sourceTree = "<group>"; };
 		1C3761F12765458F001A77B5 /* StarsParticles.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = StarsParticles.scnp; sourceTree = "<group>"; };
 		1C50DBEE2763A1A500FFE5E6 /* Earth.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Earth.usdz; sourceTree = "<group>"; };
-		1C50DBF02763A1A500FFE5E6 /* Titan.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Titan.usdz; sourceTree = "<group>"; };
 		1C50DBF12763A1A500FFE5E6 /* Neptune.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Neptune.usdz; sourceTree = "<group>"; };
-		1C50DBF22763A1A500FFE5E6 /* chroma.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chroma.usdz; sourceTree = "<group>"; };
 		1C50DBF32763A1A500FFE5E6 /* sea.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sea.usdz; sourceTree = "<group>"; };
 		1C50DBF42763A1A500FFE5E6 /* Plasma.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Plasma.usdz; sourceTree = "<group>"; };
 		1C50DBF52763A1A500FFE5E6 /* VenusNASA.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = VenusNASA.usdz; sourceTree = "<group>"; };
-		1C50DBF62763A1A500FFE5E6 /* Diamond.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Diamond.usdz; sourceTree = "<group>"; };
 		1C6EF0C7276243C700B6027C /* Planet3d.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet3d.swift; sourceTree = "<group>"; };
 		1C6EF0C8276243C700B6027C /* Planet3dstru.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planet3dstru.swift; sourceTree = "<group>"; };
 		1C79D0BA275FA185002F893A /* PlanetRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,14 +79,14 @@
 		1C50DBED2763A16000FFE5E6 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				1C50DBF22763A1A500FFE5E6 /* chroma.usdz */,
-				1C50DBF62763A1A500FFE5E6 /* Diamond.usdz */,
 				1C50DBEE2763A1A500FFE5E6 /* Earth.usdz */,
+				1C50DBF32763A1A500FFE5E6 /* sea.usdz */,
+				1C3563F52768E04E00131DCC /* Alien_Planet.usdz */,
+				1C50DBF52763A1A500FFE5E6 /* VenusNASA.usdz */,
+				1C3563F32768DEF600131DCC /* Earth_new.usdz */,
 				1C50DBF12763A1A500FFE5E6 /* Neptune.usdz */,
 				1C50DBF42763A1A500FFE5E6 /* Plasma.usdz */,
-				1C50DBF32763A1A500FFE5E6 /* sea.usdz */,
-				1C50DBF02763A1A500FFE5E6 /* Titan.usdz */,
-				1C50DBF52763A1A500FFE5E6 /* VenusNASA.usdz */,
+				1C3564072769462B00131DCC /* moon.usdz */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -139,6 +153,13 @@
 			isa = PBXGroup;
 			children = (
 				1CA1D37C2767AF9900508324 /* Exoplanet.mp3 */,
+				1C3563F92768E20200131DCC /* time_Eater.mp3 */,
+				1C3563FB2768E29400131DCC /* interstellar.mp3 */,
+				1C3564002769455500131DCC /* Alliance.mp3 */,
+				1C3564012769455500131DCC /* clemens.mp3 */,
+				1C3563FE2769455400131DCC /* Colossal.mp3 */,
+				1C3563FD2769455400131DCC /* Momentum.mp3 */,
+				1C3563FF2769455500131DCC /* Silent.mp3 */,
 				1CA1D3782767974700508324 /* SoundPlayer.swift */,
 			);
 			path = Sounds;
@@ -202,17 +223,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C50DBFF2763A1A500FFE5E6 /* Diamond.usdz in Resources */,
-				1C50DBFB2763A1A500FFE5E6 /* chroma.usdz in Resources */,
+				1C3564022769455500131DCC /* Momentum.mp3 in Resources */,
+				1C3563F62768E04E00131DCC /* Alien_Planet.usdz in Resources */,
+				1C3563FC2768E29400131DCC /* interstellar.mp3 in Resources */,
+				1C3564082769462B00131DCC /* moon.usdz in Resources */,
 				1C50DBFC2763A1A500FFE5E6 /* sea.usdz in Resources */,
+				1C3564032769455500131DCC /* Colossal.mp3 in Resources */,
 				1C50DBFE2763A1A500FFE5E6 /* VenusNASA.usdz in Resources */,
+				1C3564052769455500131DCC /* Alliance.mp3 in Resources */,
 				1C79D0C2275FA187002F893A /* Assets.xcassets in Resources */,
+				1C3564042769455500131DCC /* Silent.mp3 in Resources */,
 				1C50DBFD2763A1A500FFE5E6 /* Plasma.usdz in Resources */,
 				1C50DBF72763A1A500FFE5E6 /* Earth.usdz in Resources */,
+				1C3563F42768DEF600131DCC /* Earth_new.usdz in Resources */,
+				1C3564062769455500131DCC /* clemens.mp3 in Resources */,
+				1C3563FA2768E20200131DCC /* time_Eater.mp3 in Resources */,
 				1C50DBFA2763A1A500FFE5E6 /* Neptune.usdz in Resources */,
 				1C3761F22765458F001A77B5 /* StarsParticles.scnp in Resources */,
 				1CA1D37D2767AF9900508324 /* Exoplanet.mp3 in Resources */,
-				1C50DBF92763A1A500FFE5E6 /* Titan.usdz in Resources */,
 				1C79D0C5275FA187002F893A /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

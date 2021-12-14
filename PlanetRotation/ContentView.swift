@@ -31,13 +31,11 @@ struct ContentView: View {
             
             SceneView(
                 scene: {
-                        playSound(sound: "Exoplanet", type: "mp3")
                    
-                    
-                    
                     let scene = SCNScene(named: viewModel.nameModel)!
+                        
                     
-                    let action = SCNAction.rotate(by: 360 * CGFloat(Double.pi / 180), around: SCNVector3(x:0, y:1, z:0), duration: 10)
+                    let action = SCNAction.rotate(by: 360 * CGFloat(Double.pi / 180), around: SCNVector3(x:0, y:1, z:0), duration: 80)
                     let repeatAction = SCNAction.repeatForever(action)
                     
                     
@@ -50,7 +48,7 @@ struct ContentView: View {
                     
                     return scene
                 }(),
-                options: [.autoenablesDefaultLighting,.allowsCameraControl,]
+                options: [.autoenablesDefaultLighting,.allowsCameraControl]
             ).ignoresSafeArea(.all)
             
                      NavigationLink(destination: SwiftUIView()) {
