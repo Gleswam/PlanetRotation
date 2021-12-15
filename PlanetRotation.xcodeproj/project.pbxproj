@@ -28,11 +28,11 @@
 		1C6EF0CA276243C700B6027C /* Planet3dstru.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6EF0C8276243C700B6027C /* Planet3dstru.swift */; };
 		1C79D0BE275FA185002F893A /* PlanetRotationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C79D0BD275FA185002F893A /* PlanetRotationApp.swift */; };
 		1C79D0C0275FA185002F893A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C79D0BF275FA185002F893A /* ContentView.swift */; };
-		1C79D0C2275FA187002F893A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C79D0C1275FA187002F893A /* Assets.xcassets */; };
 		1C79D0C5275FA187002F893A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C79D0C4275FA187002F893A /* Preview Assets.xcassets */; };
 		1CA1D375276793EB00508324 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1D374276793EB00508324 /* ViewModel.swift */; };
 		1CA1D3792767974700508324 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1D3782767974700508324 /* SoundPlayer.swift */; };
 		1CA1D37D2767AF9900508324 /* Exoplanet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1D37C2767AF9900508324 /* Exoplanet.mp3 */; };
+		1CAA8DE6276A4F8F00A1903D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAA8DE5276A4F8F00A1903D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,11 +58,11 @@
 		1C79D0BA275FA185002F893A /* PlanetRotation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetRotation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C79D0BD275FA185002F893A /* PlanetRotationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetRotationApp.swift; sourceTree = "<group>"; };
 		1C79D0BF275FA185002F893A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1C79D0C1275FA187002F893A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C79D0C4275FA187002F893A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CA1D374276793EB00508324 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		1CA1D3782767974700508324 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		1CA1D37C2767AF9900508324 /* Exoplanet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Exoplanet.mp3; sourceTree = "<group>"; };
+		1CAA8DE5276A4F8F00A1903D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 				1C79D0BF275FA185002F893A /* ContentView.swift */,
 				1C20A08F2763AE740025BB54 /* SwiftUIView.swift */,
 				1C3761F12765458F001A77B5 /* StarsParticles.scnp */,
-				1C79D0C1275FA187002F893A /* Assets.xcassets */,
+				1CAA8DE5276A4F8F00A1903D /* Assets.xcassets */,
 				1C79D0C3275FA187002F893A /* Preview Content */,
 			);
 			path = PlanetRotation;
@@ -231,12 +231,12 @@
 				1C3564032769455500131DCC /* Colossal.mp3 in Resources */,
 				1C50DBFE2763A1A500FFE5E6 /* VenusNASA.usdz in Resources */,
 				1C3564052769455500131DCC /* Alliance.mp3 in Resources */,
-				1C79D0C2275FA187002F893A /* Assets.xcassets in Resources */,
 				1C3564042769455500131DCC /* Silent.mp3 in Resources */,
 				1C50DBFD2763A1A500FFE5E6 /* Plasma.usdz in Resources */,
 				1C50DBF72763A1A500FFE5E6 /* Earth.usdz in Resources */,
 				1C3563F42768DEF600131DCC /* Earth_new.usdz in Resources */,
 				1C3564062769455500131DCC /* clemens.mp3 in Resources */,
+				1CAA8DE6276A4F8F00A1903D /* Assets.xcassets in Resources */,
 				1C3563FA2768E20200131DCC /* time_Eater.mp3 in Resources */,
 				1C50DBFA2763A1A500FFE5E6 /* Neptune.usdz in Resources */,
 				1C3761F22765458F001A77B5 /* StarsParticles.scnp in Resources */,
